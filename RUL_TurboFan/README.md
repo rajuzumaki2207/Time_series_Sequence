@@ -4,7 +4,7 @@ I have only attempted to predict the RUL for the first data set, the details of 
 
 
 
-
+![alt text](https://github.com/rajuzumaki2207/Time_series_Sequence/blob/main/RUL_TurboFan/Capture.PNG)
 
 Reference:
 - Saxena, A., Goebel, K., Simon, D., & Eklund, N. (2008). Damage propagation modeling for aircraft engine run-to-failure simulation. 2008 International Conference on Prognostics and Health Management. doi:10.1109/phm.2008.4711414
