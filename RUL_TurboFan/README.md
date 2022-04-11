@@ -21,7 +21,7 @@ In the Dataset directory there are the training, test and ground truth datasets.
  
   ## Results
   I have tried various techniques to calculate the RUL of the test data set and found that RNN based LSMT models showed the best results in capturing the ground truth.
-  1. Basic Regression: [code](https://github.com/rajuzumaki2207/Time_series_Sequence/blob/main/RUL_TurboFan/3_TurboFan_XGR_LGBMR.ipynb) 
+  1. Basic Regression [code](https://github.com/rajuzumaki2207/Time_series_Sequence/blob/main/RUL_TurboFan/3_TurboFan_XGR_LGBMR.ipynb) 
   
   
  | Model | RMSE Train |R_Squared Train | R_Squared Test|	RMSE Test|	SMAPE Train|	SMAPE Test|
@@ -30,10 +30,9 @@ In the Dataset directory there are the training, test and ground truth datasets.
   | XGBoost Regressor      |	 3.447115       |	0.836583|	0.572991|       	3.820842|	29.323849|	16.183817 |
   | Light GBM Regressor    |	3.447115|         0.836583|	0.571015|	       3.829674|	29.323849	|16.363749 |
   
+  <a href="https://drive.google.com/uc?export=view&id=1ZBzQWcOnJ6AWPcN7NilTxHaJw5tVeKC_"><img src="https://drive.google.com/uc?export=view&id=1ZBzQWcOnJ6AWPcN7NilTxHaJw5tVeKC_" style="width: 850px; max-width: 150%; height: auto" title="Click to enlarge picture"/>
   
-  
-  2. Distributed lag models: VAR models can handle multivariate timeseries, however the model initially creates lags of both our X and Y variables. Normally in timeseries the past values of Y play a large role in determining future values of Y. But since we assume our values for Y to be constant or linearly declining in the training set, incorporating these self-defined targets in the model and using them for prediction would highly influence model results and overemphasize the effect of Yt-1 on Yt. Distributed lag models gives us  a regression model where we have full control over how many lags we add for each variable.
-  3. RNN based LSTMs: 
+ 2. RNN based LSTMs [code](https://github.com/rajuzumaki2207/Time_series_Sequence/blob/main/RUL_TurboFan/4_TurboFan_LSTMs.ipynb):  
   
 
 Reference:
