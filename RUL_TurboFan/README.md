@@ -3,8 +3,10 @@ This repo contains the notebooks on the NASA turbofan degradation dataset. The t
 I have only attempted to predict the RUL for the first data set, the details of which are explained below.
 
 
+<a href="https://drive.google.com/uc?export=view&id=15wzL-T7BGPO7yp4oQ4bOgeeq3MfcRKCc"><img src="https://drive.google.com/uc?export=view&id=15wzL-T7BGPO7yp4oQ4bOgeeq3MfcRKCc" style="width: 850px; max-width: 150%; height: auto" title="Click to enlarge picture" />
 
-![alt text](https://github.com/rajuzumaki2207/Time_series_Sequence/blob/main/RUL_TurboFan/Capture.PNG)
+
+
 
 Reference:
 - Saxena, A., Goebel, K., Simon, D., & Eklund, N. (2008). Damage propagation modeling for aircraft engine run-to-failure simulation. 2008 International Conference on Prognostics and Health Management. doi:10.1109/phm.2008.4711414
